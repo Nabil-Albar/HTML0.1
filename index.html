@@ -1,0 +1,175 @@
+<html>
+    <head>
+        <title>Nabil HTML 0.1</title>
+        <link rel="Skibidi Icon" href="Skibidi.jpg">
+        <style>
+        
+        </style>
+    </head>
+    <body>
+        <!-- Notes: ( < : &lt;) ( > : &gt;) [ ( : &lpar; ] [ ) : &rpar; ]  &lt;TEXT&gt; -->
+         <center><b>Learning HTML 0.1</b></center>
+        <ol type="1">
+            <li><b>Heading</b>, There is 6 Heading type. Example:</li>
+            <ol type="I">
+            <li><h1> Heading 1 &lt;h1&gt;</h1> </li>
+            <li><h2> Heading 2 &lt;h2&gt;</h2> </li>
+            <li><h3> Heading 3 &lt;h3&gt;</h3> </li>
+            <li><h4> Heading 4 &lt;h4&gt;</h4> </li>
+            <li><h5> Heading 5 &lt;h5&gt;</h5> </li>
+            <li><h6> Heading 6 &lt;h6&gt;</h6> </li>
+            </ol>
+            <li><b>Paragraph</b>, A paragraph always starts on a new line, and is usually a block of text. Example : 
+                <p>
+                    This paragraph
+                    contains a lot of lines
+                    in the source code,
+                    but the browser
+                    ignores it.
+                    </p>
+                    
+                    <p>
+                    This paragraph
+                    contains         a lot of spaces
+                    in the source         code,
+                    but the        browser
+                    ignores it.
+                    </p>
+                </li>
+                <li><b>Entities</b>, some characters already resevered by HTML, so we can't use characters in some text, so we need
+                    to use symbol entities. Example :
+                    <ul><br>
+                        <li>for &lt; you need to use &amp;lt;</li>
+                        <li>&gt; you need to use &amp;gt;</li>
+                        <li>&lpar; you need to use &amp;lpar;</li>
+                        <li>&rpar; you need to use &amp;rpar;</li>
+                    </ul>
+                    <br>we can see the list of all entities here : <a href="https://oinam.github.io/entities/" target="_blank">Entities List</a></br>
+                </li>
+                <br>
+                <li><b>Break Line</b>, you can't use enter to make a new line but you need to use break line. Example :
+                    <ol type="I">
+                        <br><li>&lt;br&gt;, to insert a single line break</li></br>
+                        <hr><li>&lt;hr&gt;, to insert a single line break and add a horizontal rule</li></hr>
+                    </ol>
+                </li>
+                <br><li><b>Style</b>, in HTML you can add atribute style to change color, font &lpar;familiy ,size and color&rpar;, background color, etc. Example: 
+                <ol type="I">
+                    <li style="font-family: Courier;"> font-family, to use this you can add: style="font-familiy: Courier;"</li>
+                    <li style="background-color: aqua;">background-color, to use this you can add: style="background-color: aqua;"</li>
+                    <li style="color: red;">color, to use this you can add: style="color: red;"</li>
+                    <li style="font-size: 200%;">font-size, to use this you can add: style="font-size: 200%;"</li>
+                </ol>
+                </li>
+                <br>
+                <li><b>Format</b>, you can change your text format to bold, italic, etc. Example :</li>
+                <ol type="I">
+                    <li><B>Bold</B> &lt;B&gt; and &lt;strong&gt;</li>
+                    <li><i>Italic</i> &lt;i&gt;</li>
+                    <li><small>Small</small> &lt;small&gt;</li>
+                    <li><del>Strike through</del> &lt;del&gt;</li>
+                    <li><ins>Underline</ins> &lt;ins&gt;</li>
+                    <li><sub>Subscript</sub> &lt;sub&gt;</li>
+                    <li><sup>Superscript</sup> &lt;sup&gt;</li>
+                </ol>
+                <li><b>Comment</b>, can be used to add information for developer that not showed in the web page. Example:
+                   <p style="color: green;">&lt;!-- Comment --&gt;</p>
+                </li>
+                <li><b>List</b>, to make a list you can use &lt;ul&gt; (unorderer list) or &lt;ol&gt; (ordered list), for the text you want to list you use &lt;li&gt; (list item). Example: 
+                    <br>
+                    <br>example for &lt;ul&gt; :
+                    <br>
+                    <br> 
+                My hobby:
+                <br>
+                <br>
+                    <ul>
+                    <li>Gaming</li>
+                    <li>Mewing</li>
+                    <li>Playing</li>
+                </ul>
+
+                <br>example for &lt;ol&gt;:
+                <br>
+                <br>My hobby:
+                <br>
+                <br>
+
+                <ol>
+                <li>Gaming</li>
+                <li>Mewing</li>
+                <li>Playing</li>
+
+                </ol>
+                <br>
+                <li><b>Link</b>, in HTML we can embed our link. Example:</li>
+
+                <ol type="I">
+                    <li>target="_self" to open in the same page: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_self" title="SIGMA Lv. 10000">How to Sigma</a></li>
+                    <li>target="_blank" to open in new page: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" title="Mewing Tutorial">Mewing Tutorial </a></li>
+                </ol>
+                <br>
+                <br>
+                <li><b>Image</b>, you can put image in your web browser. Example: </li>
+                <br>
+                &lt;img style="width:100%;" height='100%" src="Skibidi.jpg" alt="Skibidi Toilet"&gt;
+                <br>
+                <img style="width: 100%;" height="100%" src="Skibidi.jpg" alt="Skibidi Toilet">
+                <br>
+                <br>
+                <li><b>Pre</b>, it is what it is. Example:</li>
+                <br>
+                &lt;Pre&gt;
+                <pre>Sigma
+Mewing
+Skibidi
+Rizz
+Brain Rot
+                </pre>
+
+                <li><b>Emoji</b>, put emoji in your text. Example:</li>
+                
+                Test &#x1F601; &#128513;
+                <br>Emoji unicode list: <a href="https://www.quackit.com/character_sets/emoji/emoji_v3.0/unicode_emoji_v3.0_characters_all.cfm" target="_blank" title="Emoji"></a>
+                <br>
+                <br>
+
+                <li><b>Head</b>, you can put your CSS and JavaScript code here. Example:</li>
+                you can change your title
+                
+                &lt;title&gt;Nabil HTML 0.1 &lt;/title&gt;
+                <br>
+                <br>
+
+                <li><b>Favicon</b>, you can change your web icon. Example:</li>
+                <br>
+                &lt;link rel:"Skibidi Icon" href:"Skibidi.jpg" &gt;
+                <br>
+                <br>
+
+                <li><b>Div</b>, to make a conatiner or whatever is that. Example:</li>
+                <pre>
+    &lt;div style="border: 3px; border-style: double ; border-color: aqua;"&gt;
+        &lt;ul&gt;
+            &lt;Nabil&gt;
+            &lt;Albar&gt;
+            &lt;Lukman&gt;
+        &lt;ul&gt;
+     &lt;/div&gt;    
+                </pre>
+                <div style="border: 3px; border-style: double ; border-color: aqua;">
+                    <ul>
+                        <li>Nabil</li>
+                        <li>Albar</li>
+                        <li>Lukman</li>
+                    </ul>
+                </div>
+            <br>
+            
+            <li><b>Video</b>,  you can put video in your web page. Example:</li>
+            <video width="1280" height="720" controls autoplay>
+                <source src="Trance.mp4">
+            </video>
+        </ol>
+    </body>
+</html>
